@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 //sortColumn: object
 //onSort: function
 class TableHeader extends Component {
-    raiseSort = column.path => {
+    raiseSort = path => {
         const sortColumn = {...this.props.sortColumn};
 
         if(sortColumn.path===path){
