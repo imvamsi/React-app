@@ -33,6 +33,7 @@ columns= [
               <TableBody columns = {this.columns} data={movies} />
               
           </table>
+          
      );
 
     }
