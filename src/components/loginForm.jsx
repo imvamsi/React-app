@@ -5,7 +5,7 @@ class Login extends Component {
     render() { 
         return ( 
             
-           <div>
+           <div className="container">
                <h1> Login </h1>
                <form>
                    <div className="form-group">
@@ -17,6 +17,7 @@ class Login extends Component {
                      <label htmlFor="">Password</label>
                      <input type="text" className="form-control"/>
                    </div>
+                   <button className = "btn btn-primary">Login</button>
                </form>    
 
 
