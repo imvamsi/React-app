@@ -8,6 +8,7 @@ import NotFound from './components/notFound';
 import Customers from './components/customers';
 import Rentals from './components/rentals';
 import Navbar from './components/navbar';
+import Login from './components/loginForm';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
 <Navbar/>
       <main className = "container">
         <Switch>
+          <Route path = "/login" component={Login}/>
           <Route path ="/movies" component={Movies}/>
           <Route path="/not-found" component={NotFound}/>
           <Route path="/rentals" component={Rentals}/>
